@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953114985331",
+    "project_id": "shop-58cf8",
+    "storage_bucket": "shop-58cf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953114985331:android:620dc818d9b4a0ede13b06",
+        "android_client_info": {
+          "package_name": "com.muaz.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzPNmpmVakn47Xqr_jERlyXmifwTVChzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953114985331:android:a9b278b7cf42aaa8e13b06",
+        "android_client_info": {
+          "package_name": "com.muaz.store.store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzPNmpmVakn47Xqr_jERlyXmifwTVChzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
