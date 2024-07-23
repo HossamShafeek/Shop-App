@@ -8,6 +8,7 @@ import 'package:shop/feature/home/presentation/cubits/most_popular_cubit/most_po
 import 'package:shop/feature/home/presentation/cubits/most_popular_cubit/most_popular_state.dart';
 import 'package:shop/feature/home/presentation/views/widgets/most_popular_grid_view_item.dart';
 
+
 class MostPopularGridView extends StatelessWidget {
   const MostPopularGridView({super.key});
 
@@ -30,7 +31,7 @@ class MostPopularGridView extends StatelessWidget {
                   crossAxisSpacing: AppConstants.padding10w,
                   mainAxisSpacing: AppConstants.padding10w,
                   itemCount:
-                      state.products.length >= 4 ? 4 : state.products.length,
+                  state.products.length >= 4 ? 4 : state.products.length,
                   staggeredTileBuilder: (index) {
                     return StaggeredTile.count(1, index.isEven ? 1.4 : 1.2);
                   },

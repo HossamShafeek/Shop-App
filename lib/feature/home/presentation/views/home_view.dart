@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shop/core/utils/app_constants.dart';
 import 'package:shop/feature/home/presentation/views/widgets/banners_list_view.dart';
-import 'package:shop/feature/home/presentation/views/widgets/gategories_horizontal_list_view.dart';
+import 'package:shop/feature/home/presentation/views/widgets/categories_horizontal_list_view.dart';
 import 'package:shop/feature/home/presentation/views/widgets/most_popular_grid_view.dart';
 
 class HomeView extends StatelessWidget {
